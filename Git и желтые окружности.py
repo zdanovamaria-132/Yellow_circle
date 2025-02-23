@@ -2,7 +2,6 @@ import sys
 from random import randint
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget
 from PyQt6.QtGui import QPainter, QColor
-from PyQt6 import uic
 
 class CirclePainter(QWidget):
     def __init__(self):
